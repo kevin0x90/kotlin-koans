@@ -36,5 +36,5 @@ fun todoTask5(): Nothing = TODO(
     references = { getPattern(); month })
 
 fun task5(): String {
-    return "13 $month 1992"
+    return """\d{2} $month \d{4}"""
 }
